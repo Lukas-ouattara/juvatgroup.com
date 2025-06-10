@@ -1,0 +1,106 @@
+body {
+  font-family: Arial, sans-serif;
+}
+header{
+  background: #000;
+}
+.hero-slide {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.hero-slide h1, .hero-slide p {
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+
+.services i {
+  transition: transform 0.3s;
+}
+
+.services i:hover {
+  transform: scale(1.2);
+}
+
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.contact a {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 24px;
+}
+#servicesCarousel .carousel-item {
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.5s ease;
+}
+
+#servicesCarousel .carousel-item img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+
+#servicesCarousel h5 {
+  margin-top: 15px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#servicesCarousel p {
+  max-width: 80%;
+  margin: 0 auto;
+  font-size: 1rem;
+  color: #333;
+}
+
+#servicesCarousel i {
+  margin-bottom: 10px;
+  color: #f1c40f;
+}
+#services .carousel-inner {
+  display: flex;
+  justify-content: center; /* centre horizontalement l'ensemble */
+  gap: 30px; /* espace entre les items */
+  flex-wrap: nowrap; /* pas de retour à la ligne */
+  overflow-x: auto; /* scroll horizontal si trop large */
+  padding-bottom: 10px;
+}
+
+#services .carousel-item {
+  flex: 0 0 auto; /* taille fixe, ne rétrécit pas */
+  width: 250px; /* largeur fixe à adapter */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#services .carousel-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+footer{
+  background-color: #000;
+}
